@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DSL", "DSL\DSL.fsproj", "{8B8FAC87-6213-4840-8B4A-4AF693A9CC56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSL_Sprache", "DSL_Sprache\DSL_Sprache.csproj", "{0EC00851-6542-4EFB-9F31-79FCC86493A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tester", "Tester\Tester.csproj", "{CE89A972-3417-494C-B961-E89BD4A89FC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B8FAC87-6213-4840-8B4A-4AF693A9CC56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B8FAC87-6213-4840-8B4A-4AF693A9CC56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B8FAC87-6213-4840-8B4A-4AF693A9CC56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B8FAC87-6213-4840-8B4A-4AF693A9CC56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EC00851-6542-4EFB-9F31-79FCC86493A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EC00851-6542-4EFB-9F31-79FCC86493A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EC00851-6542-4EFB-9F31-79FCC86493A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EC00851-6542-4EFB-9F31-79FCC86493A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE89A972-3417-494C-B961-E89BD4A89FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE89A972-3417-494C-B961-E89BD4A89FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE89A972-3417-494C-B961-E89BD4A89FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE89A972-3417-494C-B961-E89BD4A89FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
