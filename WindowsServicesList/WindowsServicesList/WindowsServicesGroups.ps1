@@ -1,0 +1,1 @@
+Get-WmiObject -Class win32_LoadOrderGroupServiceMembers | ForEach-Object { New-Object -TypeName psobject -Property @{ "GroupOrder"=([wmi]$_.GroupComponent).GroupOrder; "GroupName"=([wmi]$_.GroupComponent).Name; "ServiceName"=([wmi]$_.PartComponent).Name; "Started"=([wmi]$_.PartComponent).Started }} | Sort-Object -Property grouporder
